@@ -16,6 +16,6 @@ class api():
         elif code == 4:
             self._key = '+12068288235'
         elif code == 5:
-            self._key = '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'
+            self._key = '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'
         elif code == 6:
             self._key = 'https://api.openai.com/v1/chat/completions'
