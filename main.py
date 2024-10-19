@@ -9,12 +9,12 @@ from datetime import datetime
 app = Flask(__name__)
 load_dotenv()
 
-SIGNALWIRE_PROJECT_ID = str(os.getenv("SIGNALWIRE_PROJECT_ID"))
-SIGNALWIRE_API_TOKEN = str(os.getenv("SIGNALWIRE_API_TOKEN"))
-SIGNALWIRE_SPACE_URL = str(os.getenv("SIGNALWIRE_SPACE_URL"))
-SIGNALWIRE_PHONE_NUMBER = str(os.getenv("SIGNALWIRE_PHONE_NUMBER"))
-OPENAI_API_KEY = str(os.getenv("OPENAI_API_KEY"))
-OLLAMA_API_URL = str(os.getenv("OLLAMA_API_URL"))
+SIGNALWIRE_PROJECT_ID = 'c999ec5e-fab9-4360-8326-3825ffcb3fb9'
+SIGNALWIRE_API_TOKEN = 'PTb5ae26a882762022a798154a1efa7f5e5a9ddce08994b6c3'
+SIGNALWIRE_SPACE_URL = 'test1928u.signalwire.com'
+SIGNALWIRE_PHONE_NUMBER = '+12068288235'
+OPENAI_API_KEY = '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'
+OLLAMA_API_URL = 'https://api.openai.com/v1/chat/completions'
 
 # SignalWire client
 client = SignalWireClient(SIGNALWIRE_PROJECT_ID, SIGNALWIRE_API_TOKEN, signalwire_space_url=SIGNALWIRE_SPACE_URL)
@@ -64,7 +64,7 @@ def get_mistral_response(prompt):
         return f"Error: {str(e)}"
 
 def log(phone_number, message, message_out):
-    with open("C:\\Users\\TmanT\\OneDrive\\Desktop\\Workout App\\log.txt", "a") as file:
+    with open("C:\\Users\\TmanT\\OneDrive\\Desktop\\SMS Chatbot\\.venv\\log.txt", "a") as file:
         file.write(f"{datetime.now()}: {phone_number}\nMessage in: \n{message}\nMessage out:\n{message_out}\n\n")
         file.flush()
 
