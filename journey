@@ -1,0 +1,7 @@
+The major features of this project are the accessibility of AI through SMS messaging, allowing easy access to a chatbot,
+and the use of AI to aid in suicide and self harm prevention.  It was designed by 3 people who got very little sleep.  
+Most of our problems came from the SMS service, SignalWire.  We went through many different SMS services before landing 
+on SignalWire.  Most of these services are meant for companies sending out mass messages, so it isn't perfect for our use
+case. It still isn't working perfectly, only allowing verified numbers to access the program, but we were able to get a
+prototype after many iterations of the code.  Improvements we could make in the future are our own SMS service so we 
+don't have to jump through these hoops, allowing anyone to access our assisstant for free at any time.
