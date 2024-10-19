@@ -5,19 +5,30 @@ import requests
 from dotenv import load_dotenv
 import time
 from datetime import datetime
+from api import api
 
 app = Flask(__name__)
 load_dotenv()
 
-SIGNALWIRE_PROJECT_ID = 'c999ec5e-fab9-4360-8326-3825ffcb3fb9'
-SIGNALWIRE_API_TOKEN = 'PTb5ae26a882762022a798154a1efa7f5e5a9ddce08994b6c3'
-SIGNALWIRE_SPACE_URL = 'test1928u.signalwire.com'
-SIGNALWIRE_PHONE_NUMBER = '+12068288235'
-OPENAI_API_KEY = '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'
-OLLAMA_API_URL = 'https://api.openai.com/v1/chat/completions'
+# not all of these are API keys, but they are all hidden by the same class for simplicity.
+
+SIGNALWIRE_PROJECT_ID = api()
+SIGNALWIRE_PROJECT_ID.pick_key(1)
+SIGNALWIRE_API_TOKEN = api()
+SIGNALWIRE_API_TOKEN.pick_key(2)
+SIGNALWIRE_SPACE_URL = api()
+SIGNALWIRE_SPACE_URL.pick_key(3)
+SIGNALWIRE_PHONE_NUMBER = api()
+SIGNALWIRE_PHONE_NUMBER.pick_key(4)
+OPENAI_API_KEY = api()
+OPENAI_API_KEY.pick_key(5)
+OLLAMA_API_URL = api()
+OLLAMA_API_URL.pick_key(6)
+
+
 
 # SignalWire client
-client = SignalWireClient(SIGNALWIRE_PROJECT_ID, SIGNALWIRE_API_TOKEN, signalwire_space_url=SIGNALWIRE_SPACE_URL)
+client = SignalWireClient(SIGNALWIRE_PROJECT_ID._key, SIGNALWIRE_API_TOKEN._key, signalwire_space_url=SIGNALWIRE_SPACE_URL._key)
 
 @app.route('/sms', methods=['POST'])
 def sms_reply():
@@ -30,7 +41,7 @@ def sms_reply():
     
     # Send Mistral 7B's response back as an SMS via SignalWire
     message = client.messages.create(
-        from_=SIGNALWIRE_PHONE_NUMBER,
+        from_=SIGNALWIRE_PHONE_NUMBER._key,
         to=from_number,
         body=reply_text
     )
@@ -42,13 +53,13 @@ def get_mistral_response(prompt):
     try:
         headers = {
             "Content-Type": "application/json",
-            "Authorization": f"Bearer {OPENAI_API_KEY}"  # Your OpenAI API key
+            "Authorization": f"Bearer {OPENAI_API_KEY._key}"
         }
         data = {    
-            "model": "gpt-3.5-turbo",  # Use GPT-4 model
+            "model": "gpt-3.5-turbo",  # Use GPT-3.5-turbo model
             "messages": [{"role": "user", "content": prompt}],  # Format for messages
         }
-        response = requests.post(OLLAMA_API_URL, headers=headers, json=data)
+        response = requests.post(OLLAMA_API_URL._key, headers=headers, json=data)
         
         # Check for errors
         if response.status_code != 200:
@@ -56,7 +67,7 @@ def get_mistral_response(prompt):
 
         if response.headers.get('Content-Type') == 'application/json':
             response_json = response.json()
-            return response_json.get("choices", [{}])[0].get("message", {}).get("content", "Sorry, I couldn't generate a response.")
+            return response_json.get("choices", [{}])[0].get("message", {}).get("content", "Sorry, I couldn't generate a response.") #no errors, returns chatbot output
         else:
             return f"Unexpected response format: {response.text}"
     

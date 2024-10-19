@@ -186,3 +186,47 @@ Whats your name
 Message out:
 I'm an AI assistant and I don't have a personal name. You can just call me Assistant. How can I assist you today?
 
+2024-10-19 00:22:53.311835: +19164136831
+Message in: 
+Can you see previous messages from me?
+Message out:
+No, I am unable to see previous messages from you as each conversation is independent and I do not retain any information.
+
+2024-10-19 00:23:07.345683: +19164136831
+Message in: 
+How could I change that?
+Message out:
+Error: Received status code 401. Response: {
+    "error": {
+        "message": "Incorrect API key provided: sk-proj-********************************************************************************************************************************************************ofIA. You can find your API key at https://platform.openai.com/account/api-keys.",
+        "type": "invalid_request_error",
+        "param": null,
+        "code": "invalid_api_key"
+    }
+}
+
+
+2024-10-19 00:24:29.985671: +19164136831
+Message in: 
+Can you see previous messages from me?
+Message out:
+Yes, I can see previous messages from you within the current conversation. If you are referring to messages from previous conversations, I do not have the ability to access or store that information.
+
+2024-10-19 00:24:49.554011: +19164136831
+Message in: 
+What was my last question?
+Message out:
+Your last question was "What was my last question?"
+
+2024-10-19 00:25:25.130004: +19164136831
+Message in: 
+How many carrots do i need for a chicken noodle soup?
+Message out:
+It depends on the recipe you are using and how many servings you want to make. Typically, for a medium-sized pot of chicken noodle soup, you will need around 2-3 carrots, chopped. Adjust the amount accordingly based on your preferences and the size of the recipe.
+
+2024-10-19 00:25:40.048551: +19164136831
+Message in: 
+Could i have them shredded?
+Message out:
+Yes, you can have them shredded. Shredding documents is a common practice for disposing of sensitive information in a secure manner. You can either use a shredder at home or hire a professional shredding service to take care of it for you. Just make sure to follow any applicable privacy regulations when shredding documents containing personal or confidential information.
+
