@@ -46,10 +46,11 @@ def sms_reply():
         return jsonify({"status": "Your data has been deleted."}), 200
 
     elif incoming_msg.lower() == 'save':
-        if from_number in temp_conversations:
-            conversation_data = temp_conversations[from_number]
-            log_to_csv(from_number, conversation_data['incoming_msg'], conversation_data['reply_text'])
-            del temp_conversations[from_number]
+        message = client.messages.create(
+        from_=SIGNALWIRE_PHONE_NUMBER,
+        to=from_number,
+        body="Thank you for saving your data! You can delete it from our database at any time by texting \"delete\" to this phone number."
+    )
         return jsonify({"status": "Your data has been saved."}), 200
     
     # Send the incoming message to Mistral 7B for a response
