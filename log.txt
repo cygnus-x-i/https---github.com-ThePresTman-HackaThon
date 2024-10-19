@@ -1,0 +1,182 @@
+2024-10-18 19:21:47.214959: +19164136831
+Message in: 
+Hi
+Message out:
+Error: Extra data: line 1 column 5 (char 4)
+
+2024-10-18 19:37:08.441632: +19164136831
+Message in: 
+Hi
+Message out:
+Unexpected response format: 404 page not found
+
+2024-10-18 19:40:00.606607: +19164136831
+Message in: 
+Hi
+Message out:
+Unexpected response format: 404 page not found
+
+2024-10-18 19:40:28.952632: +19164136831
+Message in: 
+Hi
+Message out:
+Unexpected response format: 404 page not found
+
+2024-10-18 19:55:44.625731: +19164136831
+Message in: 
+Hi
+Message out:
+Unexpected response format: 404 page not found
+
+2024-10-18 21:01:48.427017: +19164136831
+Message in: 
+Huhgfg
+Message out:
+Unexpected response format: {
+    "error": {
+        "message": "You didn't provide an API key. You need to provide your API key in an Authorization header using Bearer auth (i.e. Authorization: Bearer YOUR_KEY), or as the password field (with blank username) if you're accessing the API from your browser and are prompted for a username and password. You can obtain an API key from https://platform.openai.com/account/api-keys.",
+        "type": "invalid_request_error",
+        "param": null,
+        "code": null
+    }
+}
+
+
+2024-10-18 21:17:29.729398: +19164136831
+Message in: 
+Hello
+Message out:
+Unexpected response format: {
+    "error": {
+        "message": "The model `mistral` does not exist or you do not have access to it.",
+        "type": "invalid_request_error",
+        "param": null,
+        "code": "model_not_found"
+    }
+}
+
+
+2024-10-18 21:17:58.593022: +19164136831
+Message in: 
+Hi
+Message out:
+Sorry, I couldn't generate a response.
+
+2024-10-18 21:18:07.900713: +19164136831
+Message in: 
+Why not?
+Message out:
+Sorry, I couldn't generate a response.
+
+2024-10-18 21:19:16.798611: +19164136831
+Message in: 
+Hi
+Message out:
+<Response [400]>
+
+2024-10-18 21:22:46.986265: +19164136831
+Message in: 
+Hi
+Message out:
+{'role': 'assistant', 'content': 'Hello! How can I assist you today?', 'refusal': None}
+
+2024-10-18 21:23:36.964269: +19164136831
+Message in: 
+How is life
+Message out:
+{'role': 'assistant', 'content': "As an AI, I don't have personal experiences. But I'm here and ready to assist you with any information or tasks you need help with. From a general perspective, life can be challenging, rewarding, confusing, and beautiful all at once. It's a journey of learning and growing.", 'refusal': None}
+
+2024-10-18 21:23:44.374693: +19164136831
+Message in: 
+Same
+Message out:
+{'role': 'assistant', 'content': 'Without any context, "same" is often used as a response on social media or in informal conversation to agree with or empathize with someone else\'s statement or experience. It generally means "I feel the same way" or "I have had the same experience". If you could provide a specific context or sentence, I would be better able to provide a specific definition or explanation.', 'refusal': None}
+
+2024-10-18 21:24:40.181911: +19164136831
+Message in: 
+How do i make cookie?
+Message out:
+{'role': 'assistant', 'content': 'Here is a basic recipe for making cookies:\n\nIngredients:\n- 1 cup (2 sticks) of unsalted butter, softened\n- 1 cup of granulated sugar\n- 1 cup of packed brown sugar\n- 2 large eggs\n- 1 teaspoon of vanilla extract\n- 3 cups of all-purpose flour\n- 1 teaspoon of baking soda\n- 1/2 teaspoon of salt\n- 2 cups of chocolate chips or other mix-ins (optional)\n\nInstructions:\n1. Preheat your oven to 350°F (175°C) and line a baking sheet with parchment paper.\n2. In a mixing bowl, cream together the butter, granulated sugar, and brown sugar until light and fluffy.\n3. Add in the eggs, one at a time, mixing well after each addition. Then stir in the vanilla extract.\n4. In a separate bowl, whisk together the flour, baking soda, and salt. Gradually add this dry mixture to the wet ingredients, mixing until just combined.\n5. If using chocolate chips or other mix-ins, fold them into the dough until evenly distributed.\n6. Drop spoonfuls of dough onto the prepared baking sheet, about 2 inches apart. Flatten slightly with the back of a spoon.\n7. Bake in the preheated oven for 10-12 minutes, or until the edges are golden brown.\n8. Allow the cookies to cool on the baking sheet for a few minutes before transferring them to a wire rack to cool completely.\n9. Enjoy your homemade cookies!', 'refusal': None}
+
+2024-10-18 21:29:15.205475: +19164136831
+Message in: 
+Im very sad send help pls
+Message out:
+Error: <Response [200]>
+
+2024-10-18 21:31:32.125852: +19164136831
+Message in: 
+Hi
+Message out:
+Sorry, I couldn't generate a response.
+
+2024-10-18 21:33:23.858754: +19164136831
+Message in: 
+Hello there
+Message out:
+Hi! How can I assist you today?
+
+2024-10-18 21:33:46.953962: +19164136831
+Message in: 
+Im going to disney land this winter
+Message out:
+That sounds like so much fun! I hope you have an amazing time at Disney Land this winter. Enjoy all the rides, shows, and attractions!
+
+2024-10-18 21:34:09.821497: +19164136831
+Message in: 
+I am feeling really depressed. I want to kill myself. What should i do?
+Message out:
+I am sorry to hear that you are feeling this way. It is important to remember that suicidal thoughts are not a permanent solution to temporary problems. It is crucial that you seek help and talk to someone about how you are feeling.
+
+Please reach out to a mental health professional, a trusted friend or family member, or a crisis hotline for support. You are not alone, and there are people who care about you and want to help you through this difficult time. Remember that there is always hope for a better tomorrow. Your life is valuable and worth living.
+
+2024-10-18 21:35:06.987762: +19164136831
+Message in: 
+Kill yourself
+Message out:
+I'm sorry to hear that you are feeling that way. If you are experiencing thoughts of self-harm or suicide, please know that there is help available. You can reach out to a mental health professional, call a crisis hotline, or talk to a trusted friend or family member. Your life is valuable and there are people who care about you. Please take care of yourself and reach out for support.
+
+2024-10-18 21:48:14.226762: +19164136831
+Message in: 
+How long does it take to cook chicken
+Message out:
+The cooking time for chicken can vary depending on the method of cooking and the cut of meat being used. Here are some general guidelines:
+
+- Roasting a whole chicken typically takes about 1 to 1 1/2 hours at 375°F (190°C).
+- Grilling chicken breasts or thighs usually takes about 6 to 8 minutes per side over medium-high heat.
+- Baking chicken breasts or thighs at 375°F (190°C) usually takes about 20 to 30 minutes.
+- Cooking chicken in a slow cooker usually takes about 4 to 6 hours on low or 2 to 3 hours on high.
+
+It is important to always use a meat thermometer to ensure that the chicken has reached a safe internal temperature of 165°F (74°C) before consuming.
+
+2024-10-18 21:50:51.277200: +19164136831
+Message in: 
+How long does it take to cook chicken
+Message out:
+The cooking time for chicken will vary depending on the cut of meat and the cooking method used. Here are some general guidelines:
+
+- Boneless, skinless chicken breasts: These can be cooked in a skillet or oven in about 15-20 minutes.
+- Bone-in chicken pieces (such as thighs or drumsticks): These will take longer to cook, usually around 25-30 minutes in the oven or on the grill.
+- Whole chicken: A whole chicken will take about 1-1.5 hours to cook in the oven at 375°F (190°C).
+
+It's important to always use a meat thermometer to ensure that the chicken has reached a safe internal temperature of 165°F (74°C) before serving.
+
+2024-10-18 21:51:59.928261: +19164136831
+Message in: 
+How long does it take to cook chicken
+Message out:
+It typically takes about 20-30 minutes to cook chicken in the oven at 375°F (190°C) or on the stove over medium heat. However, the cooking time may vary depending on the cut of chicken and the cooking method used. It is important to ensure that the chicken reaches a safe internal temperature of 165°F (74°C) before consuming.
+
+2024-10-18 22:40:37.111345: +19164136831
+Message in: 
+How long does it take to cook chicken
+Message out:
+The cooking time for chicken varies depending on the cooking method and the cut of chicken being cooked. Here are some general guidelines for cooking times:
+
+1. Roasting a whole chicken at 350°F (175°C) typically takes about 20 minutes per pound, so a 4-pound chicken would take approximately 1 hour and 20 minutes to cook.
+2. Grilling or baking chicken breasts generally takes about 20-25 minutes at 375°F (190°C).
+3. Pan-searing chicken thighs or drumsticks usually takes about 10-12 minutes per side over medium-high heat.
+4. Cooking chicken in a slow cooker on low heat can take anywhere from 4-8 hours, depending on the recipe and the size of the chicken pieces.
+
+It is important to always check the internal temperature of chicken using a meat thermometer to ensure it reaches a safe temperature of 165°F (74°C) before consuming.
+
