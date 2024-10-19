@@ -230,3 +230,102 @@ Could i have them shredded?
 Message out:
 Yes, you can have them shredded. Shredding documents is a common practice for disposing of sensitive information in a secure manner. You can either use a shredder at home or hire a professional shredding service to take care of it for you. Just make sure to follow any applicable privacy regulations when shredding documents containing personal or confidential information.
 
+2024-10-19 00:50:24.232864: +19164136831
+Message in: 
+Hello
+Message out:
+Hello! How can I assist you today?
+
+2024-10-19 00:51:02.602908: +19164136831
+Message in: 
+How hot should chicken get to fully cook it?
+Message out:
+Error: Received status code 401. Response: {
+    "error": {
+        "message": "Incorrect API key provided: sk-proj-********************************************************************************************************************************************************KfwA. You can find your API key at https://platform.openai.com/account/api-keys.",
+        "type": "invalid_request_error",
+        "param": null,
+        "code": "invalid_api_key"
+    }
+}
+
+
+2024-10-19 00:54:45.411950: +19164136831
+Message in: 
+How hot should chicken get before being considered safe
+Message out:
+The safe internal temperature for cooked chicken is 165°F (74°C). It is important to use a food thermometer to ensure that the chicken has reached this temperature to prevent foodborne illness.
+
+2024-10-19 00:55:05.982914: +19164136831
+Message in: 
+Could it be a little colder?
+Message out:
+Your Response: It is not recommended to consume undercooked chicken as it can increase the risk of foodborne illness. It is essential to cook chicken to an internal temperature of at least 165°F (74°C) to ensure that any harmful bacteria present in the meat are killed. It's better to be safe and cook it thoroughly to protect your health.
+
+2024-10-19 00:56:03.958065: +19164136831
+Message in: 
+Sorry i didnt get a response, could you send thay one more time?
+Message out:
+My apologies for the confusion. Here is the response again:
+
+It is not recommended to consume undercooked chicken as it can increase the risk of foodborne illness. It is essential to cook chicken to an internal temperature of at least 165°F (74°C) to ensure that any harmful bacteria present in the meat are killed. It's better to be safe and cook it thoroughly to protect your health.
+
+2024-10-19 10:03:53.074541: +19164136831
+Message in: 
+Hi
+Message out:
+Error: Received status code 401. Response: {
+    "error": {
+        "message": "Incorrect API key provided: sk-proj-********************************************************************************************************************************************************QvoA. You can find your API key at https://platform.openai.com/account/api-keys.",
+        "type": "invalid_request_error",
+        "param": null,
+        "code": "invalid_api_key"
+    }
+}
+
+
+2024-10-19 10:06:06.708203: +19164136831
+Message in: 
+Hi
+Message out:
+Error: Received status code 404. Response: {
+  "error": {
+    "type": "invalid_request_error",
+    "code": "unknown_url",
+    "message": "Unknown request URL: POST /v1/chat. Please check the URL for typos, or see the docs at https://platform.openai.com/docs/api-reference/.",
+    "param": null
+  }
+}
+
+2024-10-19 10:10:17.699105: +19164136831
+Message in: 
+Hi
+Message out:
+Error: Received status code 401. Response: {
+    "error": {
+        "message": "Incorrect API key provided: sk-proj-********************************************************************************************************************************************************QvoA. You can find your API key at https://platform.openai.com/account/api-keys.",
+        "type": "invalid_request_error",
+        "param": null,
+        "code": "invalid_api_key"
+    }
+}
+
+
+2024-10-19 10:15:05.039238: +19164136831
+Message in: 
+Ho
+Message out:
+I'm sorry for the technical issues. How can I assist you today?
+
+2024-10-19 11:16:55.927376: +19164136831
+Message in: 
+Ive been having really depressing thoughts lately about killing myself
+Message out:
+I'm really sorry to hear that you're struggling with such difficult thoughts. It's important to remember that you are not alone and that help is available. If you're in the United States, you can reach out to the National Suicide Prevention Lifeline at 1-800-273-8255 for immediate support. You can also text "HELLO" to 741741 to chat with a Crisis Text Line counselor. Please remember that there are people who care about you and want to help. Your life is valuable, and there are resources and options available to support you through this tough time.
+
+2024-10-19 11:30:37.281703: +19164136831
+Message in: 
+Hello
+Message out:
+Hello! How can I assist you today?
+

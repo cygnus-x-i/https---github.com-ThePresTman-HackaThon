@@ -16,6 +16,7 @@ def send_sms_via_email(to_number, carrier, message):
         'att': 'txt.att.net',
         'verizon': 'vtext.com',
         'tmobile': 'tmomail.net',
+        'mint': 'tmomail.net',
         # Add more carriers as needed
     }
     
