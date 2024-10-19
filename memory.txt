@@ -1,0 +1,53 @@
+User: Hello
+Your Response: Hello! How can I assist you today?User: How hot should chicken get before being considered safe
+Your Response: The safe internal temperature for cooked chicken is 165�F (74�C). It is important to use a food thermometer to ensure that the chicken has reached this temperature to prevent foodborne illness.
+
+User: Could it be a little colder?
+Your Response: Your Response: It is not recommended to consume undercooked chicken as it can increase the risk of foodborne illness. It is essential to cook chicken to an internal temperature of at least 165�F (74�C) to ensure that any harmful bacteria present in the meat are killed. It's better to be safe and cook it thoroughly to protect your health.
+
+User: Sorry i didnt get a response, could you send thay one more time?
+Your Response: My apologies for the confusion. Here is the response again:
+
+It is not recommended to consume undercooked chicken as it can increase the risk of foodborne illness. It is essential to cook chicken to an internal temperature of at least 165�F (74�C) to ensure that any harmful bacteria present in the meat are killed. It's better to be safe and cook it thoroughly to protect your health.
+
+User: Hi
+Your Response: Error: Received status code 401. Response: {
+    "error": {
+        "message": "Incorrect API key provided: sk-proj-********************************************************************************************************************************************************QvoA. You can find your API key at https://platform.openai.com/account/api-keys.",
+        "type": "invalid_request_error",
+        "param": null,
+        "code": "invalid_api_key"
+    }
+}
+
+
+User: Hi
+Your Response: Error: Received status code 404. Response: {
+  "error": {
+    "type": "invalid_request_error",
+    "code": "unknown_url",
+    "message": "Unknown request URL: POST /v1/chat. Please check the URL for typos, or see the docs at https://platform.openai.com/docs/api-reference/.",
+    "param": null
+  }
+}
+
+User: Hi
+Your Response: Error: Received status code 401. Response: {
+    "error": {
+        "message": "Incorrect API key provided: sk-proj-********************************************************************************************************************************************************QvoA. You can find your API key at https://platform.openai.com/account/api-keys.",
+        "type": "invalid_request_error",
+        "param": null,
+        "code": "invalid_api_key"
+    }
+}
+
+
+User: Ho
+Your Response: I'm sorry for the technical issues. How can I assist you today?
+
+User: Ive been having really depressing thoughts lately about killing myself
+Your Response: I'm really sorry to hear that you're struggling with such difficult thoughts. It's important to remember that you are not alone and that help is available. If you're in the United States, you can reach out to the National Suicide Prevention Lifeline at 1-800-273-8255 for immediate support. You can also text "HELLO" to 741741 to chat with a Crisis Text Line counselor. Please remember that there are people who care about you and want to help. Your life is valuable, and there are resources and options available to support you through this tough time.
+
+User: Hello
+Your Response: Hello! How can I assist you today?
+
